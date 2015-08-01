@@ -1,0 +1,32 @@
+What happens when you initialize a repository? Why do you need to do it?
+DMA: You get a message that says the repository was initialized
+DMA: You initilize the directory so that you have the power of git.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+DMA: staging area is a virtual area.... it isnt really a directory, but just meta data.
+It offers a temporay 'working' area to hold status of the files until you are ready to commit.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+DMA: by using the git diff --staged command, you can compare the staging area to the repository head. This will show what is to be added to the repository from the staging area.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+DMA: Branches can help keep your code organized by splitting code base along logical changes.. ie like major releases.
+(who knows when you may want to revise an older branch for nastalgia sells.)
+
+How do the diagrams help you visualize the branch structure?
+DMA: helps me see the repository like a tree; with branches and leaves.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+DMA: result is code with both features from multiple developers.
+Represent it in a diagram to help some people grasp the concept.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+DMA: Pros: less time with simple changes.. Can be done automatically
+           Logic is consistantly applied
+     Cons: manual is time consuming and not needed for simple changes
