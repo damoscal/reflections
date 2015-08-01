@@ -30,3 +30,5 @@ manually?
 DMA: Pros: less time with simple changes.. Can be done automatically
            Logic is consistantly applied
      Cons: manual is time consuming and not needed for simple changes
+           Automatic can be too passive and not aggressive enough or smart
+	   enough to handle some conflicts
