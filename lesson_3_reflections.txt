@@ -31,4 +31,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+-- for a project that is above the simplist always work in a separate branch. Definately if there is more than one person collabrating on the project. Maybe a case could be made for working in master for your own personal projects, but really you should get into the habit of creating branches. Benefits of branches is bad code is caught in the branch and doesnt break the master.
